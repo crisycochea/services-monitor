@@ -14,7 +14,7 @@ sites:
     method: POST
     body: $CULQI_TOKEN_BODY
     headers:
-      - "Authorization: Bearer $CULQI_PK"
+      - $CULQI_AUTH_HEADER
 
 
 status-website:
